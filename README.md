@@ -11,6 +11,7 @@
 - Push your docker image with docker push https://docs.docker.com/engine/reference/commandline/push/
 - Run your image off of dockerhub `docker run -p 3000:3000 <username>/hello-docker:v1`
 - Try running someone else's image
+- `docker pull image`
 
 ## Inspecting docker containers
 - Get into your contaienr with `docker exec -it <id> sh`
